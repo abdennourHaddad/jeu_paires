@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+  font-family : Verdana, Helvetica, Arial, sans-serif;
+  background-color: white;
+  margin : 0% 2%;
+}
+
+kbd {
+  padding : 0px 2px;
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  color : rgb(60,60,60);
+  font-weight : bold;
+  font-size : large;
+}
+
+div.card {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+div.card img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  user-select: none;
+}
+
+div.card:hover {
+  outline: 2px solid blue;
+}
+
+div#main-cardboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+div#memory-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.controls .paires {
+  display : inline-block;
+  width : 33%;
+  text-align : center
+}
+
+.controls div {
+  display : inline-block;
+  width : 33%;
+  text-align : center;
+}
+
+.paires input {
+  width: 50px;
+
+}
+
